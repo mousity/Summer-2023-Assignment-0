@@ -28,4 +28,3 @@ describe("the subtractFive(num) function", function() {
   })
 
 })
-
