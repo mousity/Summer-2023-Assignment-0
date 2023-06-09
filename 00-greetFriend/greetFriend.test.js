@@ -7,6 +7,8 @@ const moment = require("moment");
 
 console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
+greetFriend("Brian");
+
 describe("the greetFriend(name) function", function() {
 
   it("should return a string", function() {
@@ -28,3 +30,4 @@ describe("the greetFriend(name) function", function() {
   })
 
 })
+
